@@ -1,0 +1,115 @@
+.account-section-bg-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  margin-top: 40px;
+}
+
+.account-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #131313;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .account-title {
+    font-size: 36px;
+  }
+}
+
+.ruler {
+  background: #cbd5e1;
+  height: 2px;
+  border: none;
+  margin: 20px 0;
+}
+
+.membership-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.account-description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #131313;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .account-description {
+    font-size: 24px;
+  }
+}
+
+.user-details-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.account-password,
+.account-details {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #94a3b8;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .account-password,
+  .account-details {
+    font-size: 24px;
+    margin-left: 32px;
+  }
+}
+
+.ultra-text {
+  border: 1px solid #131313;
+  border-radius: 4px;
+  padding: 4px 8px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .ultra-text {
+    font-size: 16px;
+  }
+}
+
+.button-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.Logout-button {
+  width: 150px;
+  height: 40px;
+  background: #e50914;
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.account-footer {
+  width: 100%;
+  padding: 20px 0;
+  background-color: #f1f1f1;
+  text-align: center;
+  margin-top: 40px;
+  border-top: 1px solid #e0e0e0;
+}

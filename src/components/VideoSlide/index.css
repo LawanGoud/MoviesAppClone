@@ -1,0 +1,29 @@
+.slick-slide {
+  padding: 10px;
+}
+
+.thumbnail {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.thumbnail:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .thumbnail {
+    border-radius: 4px;
+  }
+
+  .slick-slide {
+    padding: 5px;
+  }
+}

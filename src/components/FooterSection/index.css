@@ -1,0 +1,38 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #131313;
+  padding: 30px 20px; /* Added side padding for better spacing on small screens */
+  color: #ffffff;
+}
+
+.contact-icons-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.contact-icon {
+  color: #ffffff;
+  margin: 0 15px;
+  font-size: 24px;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.contact-icon:hover {
+  color: #e50914;
+  transform: scale(1.2);
+}
+
+.contact-text {
+  font-size: 18px;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  margin: 10px 0 30px;
+  text-align: center;
+}
